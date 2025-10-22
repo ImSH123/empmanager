@@ -157,10 +157,15 @@ public class EmpDetailsInfoDesign extends JFrame {
 		add(jlbVacationDays);
 		
 		jtfVacationDays = new JTextField();
-		jtfVacationDays.setBounds(120, 330, 150, 35);
+		jtfVacationDays.setBounds(120, 330, 50, 35);
 		jtfVacationDays.setFont(font);
 		add(jtfVacationDays);
 		jtfVacationDays.setEditable(true); // 수정 가능
+		
+		JLabel jlbDays = new JLabel("일");
+		jlbDays.setBounds(175, 330, 150, 35);
+		jlbDays.setFont(font);
+		add(jlbDays);
 
 		// [수정] 버튼류 (y좌표 340 -> 390으로 변경)
 		jbtnQuit = new JButton("퇴사처리");
